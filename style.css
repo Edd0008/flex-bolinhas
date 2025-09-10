@@ -1,0 +1,34 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+   
+    body {
+        display: flex;
+        margin: 0;
+      }
+      main{
+        background-color: plum;
+        height: 160px;
+        width: 100vw;
+        display: flex;
+        justify-content: flex-end;
+      }
+      
+      .linha1 {
+        display: flex;
+        gap: 20px;
+        justify-content: end;
+        align-items: end;
+      }
+      
+      .bolinha-roxo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: slateblue;
+    
+
+      }
+      
