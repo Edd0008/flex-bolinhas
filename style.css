@@ -11,12 +11,19 @@ body {
     gap: 10px;             
   }
   
-  .linha1, .linha2 {
+  .linha1, .linha2{
     display: flex;          
     justify-content: flex-end; 
     align-items: center;
     padding: 10px;
     height: 160px;           
+  }
+  .linha3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 160px;
   }
   
   .linha1 {
@@ -26,6 +33,11 @@ body {
   
   .linha2 {
     background-color: greenyellow;
+  }
+
+  .linha3 {
+    background-color: coral;
+
   }
   
   .bolinha-roxo {
@@ -42,5 +54,13 @@ body {
     border-radius: 50%;
     background-color: green;
     margin-left: 20px;
+  }
+  
+  .bolinha-vermelha{
+    width: 80px;
+    height: 80px;
+    border-radius:50% ;
+    background-color: crimson;
+    margin: 20px;
   }
   
