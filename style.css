@@ -25,6 +25,14 @@ body {
     padding: 10px;
     height: 160px;
   }
+  .linha4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 160px;
+    gap: 500px;
+}
   
   .linha1 {
     background-color: plum;
@@ -38,6 +46,11 @@ body {
   .linha3 {
     background-color: coral;
 
+  }
+
+  .linha4{
+
+background-color: gold;
   }
   
   .bolinha-roxo {
@@ -61,6 +74,14 @@ body {
     height: 80px;
     border-radius:50% ;
     background-color: crimson;
+    margin: 20px;
+  }
+
+  .bolinha-amarela{
+    width: 80px;
+    height: 80px;
+    border-radius:50% ;
+    background-color: yellow;
     margin: 20px;
   }
   
