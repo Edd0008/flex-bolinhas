@@ -1,34 +1,46 @@
 /* Reset básico */
-* {
-    margin: 0;
+* { margin: 0;
     padding: 0;
-    box-sizing: border-box;}
-   
-    body {
-        display: flex;
-        margin: 0;
-      }
-      main{
-        background-color: plum;
-        height: 160px;
-        width: 100vw;
-        display: flex;
-        justify-content: flex-end;
-      }
-      
-      .linha1 {
-        display: flex;
-        gap: 20px;
-        justify-content: end;
-        align-items: end;
-      }
-      
-      .bolinha-roxo {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        background-color: slateblue;
-    
+    box-sizing:border-box;
+}
 
-      }
-      
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;             
+  }
+  
+  .linha1, .linha2 {
+    display: flex;          
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 10px;
+    height: 160px;           
+  }
+  
+  .linha1 {
+    background-color: plum;
+    align-items: end;
+  }
+  
+  .linha2 {
+    background-color: greenyellow;
+  }
+  
+  .bolinha-roxo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: slateblue;
+    margin-left: 20px;
+  }
+  
+  .bolinha-verde {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 20px;
+  }
+  
