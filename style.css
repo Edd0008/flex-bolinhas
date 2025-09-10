@@ -33,6 +33,14 @@ body {
     height: 160px;
     gap: 500px;
 }
+.linha5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 160px;
+    gap: 250px;
+}
   
   .linha1 {
     background-color: plum;
@@ -50,7 +58,10 @@ body {
 
   .linha4{
 
-background-color: gold;
+    background-color: gold;
+  }
+  .linha5{
+    background-color: aqua;
   }
   
   .bolinha-roxo {
@@ -84,4 +95,10 @@ background-color: gold;
     background-color: yellow;
     margin: 20px;
   }
-  
+  .bolinha-azul{
+    width: 80px;
+    height: 80px;
+    border-radius:50% ;
+    background-color: blue;
+    margin: 20px;
+  }
