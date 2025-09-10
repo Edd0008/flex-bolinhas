@@ -16,21 +16,21 @@ body {
     justify-content: flex-end; 
     align-items: center;
     padding: 10px;
-    height: 160px;           
+    height: 200px;           
   }
   .linha3{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    height: 160px;
+    height: 200px;
   }
   .linha4{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    height: 160px;
+    height: 200px;
     gap: 500px;
 }
 .linha5{
@@ -38,8 +38,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    height: 160px;
-    gap: 250px;
+    height: 250px;
+    gap: 200px;
 }
   
   .linha1 {
